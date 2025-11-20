@@ -74,3 +74,17 @@ input[type="number"]:focus {
   outline: none;
   border-color: #3b82f6;
 }
+/* specijalni stil za "Izračunaj grubo stanje" dugme */
+#calc-btn {
+  background: linear-gradient(90deg, #d1fa37, #86efac);
+  color: #111;
+}
+
+#calc-btn:hover {
+  background: linear-gradient(90deg, #befa2a, #6ee7b7);
+}
+
+#calc-btn:active {
+  background: linear-gradient(90deg, #a3e635, #4ade80);
+}
+
