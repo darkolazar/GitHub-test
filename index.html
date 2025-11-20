@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="sr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mirror Test - BMS Demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="app">
+      <h1>Mirror Test</h1>
+      <p id="status-text">Klikni na dugme da promeniš tekst.</p>
+
+      <button id="change-btn">Promeni tekst</button>
+
+      <div class="input-box">
+        <label for="voltage-input">Napon baterije (V):</label>
+        <input
+          id="voltage-input"
+          type="number"
+          step="0.1"
+          placeholder="npr. 12.5"
+        />
+        <button id="calc-btn">Izračunaj grubo stanje</button>
+      </div>
+
+      <p id="result-text"></p>
+    </div>
+  </body>
+</html>
