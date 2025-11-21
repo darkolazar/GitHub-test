@@ -39,3 +39,4 @@ calcBtn.addEventListener("click", () => {
   resultText.textContent = msg;
   resultText.style.color = color;
 });
+console.log("Git vežba – commit test.");
